@@ -1,4 +1,4 @@
-name: CCT track magnatic lightbulb
+name: CCT im track magnatic lightbulb
 products:
   - id: sb8o3jlojatloka2
     name: 两线调光-遥控-外置天线
@@ -8,28 +8,23 @@ primary_entity:
     - id: 20
       type: boolean
       name: switch
-    - id: 21
-      name: work_mode
-      type: string
     - id: 22
       name: brightness
       type: integer
       range:
-        min: 10
+        min: 5
         max: 1000
-secondary_entities:
-  - entity: number
-    translation_key: timer
-    category: config
-    dps:
-      - id: 26
-        type: integer
-        name: value
-        unit: min
-        range:
-          min: 0
-          max: 86400
-        mapping:
-          - scale: 60
-            step: 60
-        optional: true
+    - id: 23
+      name: color_temp
+      type: integer
+      range:
+        min: 0
+        max: 1000
+      mapping:
+        - invert: true
+          target_range:
+            min: 2700
+            max: 6500
+    - id: 106
+      name: identity
+      type: string
