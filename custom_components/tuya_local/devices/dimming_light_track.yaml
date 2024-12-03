@@ -2,6 +2,8 @@ name: Dimming CCT light
 products:
   - id: fkxcslivaluonzdp
     name: LightStar track light
+      - id: sb8o3jlojatloka2
+    name: 两线调光-遥控-外置天线
 primary_entity:
   entity: light
   dps:
