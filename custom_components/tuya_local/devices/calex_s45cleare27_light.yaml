@@ -2,6 +2,8 @@ name: CCT lightbulb
 products:
   - id: q66b4arnni1rnqlk
     name: Calex S45 Clear E27
+      - id: sb8o3jlojatloka2
+    name: MS30
 primary_entity:
   entity: light
   dps:
