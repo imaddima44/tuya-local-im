@@ -2,6 +2,9 @@ name: Dimming CCT light
 products:
   - id: fkxcslivaluonzdp
     name: LightStar track light
+  - id: sb8o3jlojatloka2
+    name: MS30 Dimming light Track
+
 primary_entity:
   entity: light
   dps:
